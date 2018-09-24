@@ -1,0 +1,42 @@
+#SideNavMenu {
+    width: 25%;
+    height: 90vh;
+    background-color: #eee;
+    .compose-mail-btn {
+        width: 79%;
+        padding: 9px;
+        font-size: 1.75rem;
+        background-color: #326f5e;
+        border-radius: 0.6rem;
+        margin-left: 9%;
+        margin-top: 9%;
+        border: 0;
+        color: #f0f8ff;
+    }
+
+    .email-option {
+        margin-top: 35px;
+
+        .folders {
+            border-bottom: 1px solid #0000004a;
+            margin-left: 35px;
+            margin-right: 45px;
+        }
+
+        .inbox-email,
+        .sent-email {
+            margin-top: 10px;
+            margin-left: 35px;
+            margin-right: 45px;
+
+            .inbox-btn,
+            .sent-btn {
+                border: none;
+                background-color: transparent;
+                border-bottom: 1px solid #0000004a;
+                width: 100%;
+                text-align: left;
+            }
+        }
+    }
+}

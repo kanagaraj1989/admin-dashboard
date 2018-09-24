@@ -1,0 +1,29 @@
+.login-form {
+    left: 30%;
+    top: 40%;
+    position: fixed;
+
+    .user-input-container {
+        padding: -1px;
+        margin: 0px;
+        padding: -1px;
+        border: 1px solid #0000005e;
+    
+        .user-input {
+            width: 89px;
+            padding: 5px;
+        }
+
+        .error-message {
+            color: red;
+            display: block;
+            text-align: center;
+        }
+    }
+    
+    .input-btn {
+        margin-top: 2px;
+        float: right;
+        background-color: green;
+    }
+}

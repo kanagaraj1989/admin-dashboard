@@ -1,0 +1,40 @@
+.open-email-close-body {
+    width: 100%;
+    border: 1px solid #00000047;
+    height: 52px;
+    padding: 13px;
+
+    button.close-btn {
+        background-color: green;
+        border: 1px solid green;
+        border-radius: 2px;
+    }
+
+}
+
+.open-email-header-one {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#open-email-header-two {
+    margin: 25px;
+
+    span.received-time {
+        float: right;
+    }
+}
+
+#open-email-body {
+    margin: 20px;
+
+    #email-body-id {
+        width: 100%;
+        height: 326px;
+        border: none;
+        outline: none;
+        background: none;
+    }
+    
+}

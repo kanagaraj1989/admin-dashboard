@@ -1,0 +1,56 @@
+#inbox-body-id{
+    width: 98%;
+    background-color: #fff;
+    height: 72vh;
+
+    table.inbox-tbl {
+        width: 100%;
+
+        .empty-inbox-container {
+            border: 1px solid;
+            height: 72vh;
+        
+            .empty-inbox {
+                width: 100%;
+                text-align: center;
+                font-family: cursive;
+                font-size: 20px;
+            }
+        }
+
+        tr.mail-row {
+            border: 1px solid #00000047;
+            height: 43px;
+            background: #0000000d;
+            width: 100%;
+
+            td.mail-check {
+                width: 47px;
+
+                .email-check {
+                    height: 28px;
+                    width: 20px;
+                    margin-left: 3px;
+                }
+            }
+
+            td.from-add {
+                width: 15%;
+            }
+
+            td.mail-label {
+                width: 15%;
+            }
+
+            td.mail-sub {
+                width: 55%;
+            }
+
+            td.mail-rec-time {
+                width: 10%;
+                text-align: right;
+                padding: 9px;
+            }
+        }
+    }
+}

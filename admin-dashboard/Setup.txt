@@ -1,0 +1,10 @@
+
+1. To add a email list, Edit "src/Login/Account.js"
+
+How to Run:
+	1. npm install
+	2. npm start	
+
+Note:
+	Please make sure your PC/ Laptop is connected with internet, because all image icon is fetched from "fontawesome.com"
+
